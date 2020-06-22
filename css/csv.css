@@ -1,0 +1,67 @@
+* {
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: #5382BD;
+    padding: 20px;
+}
+
+.json, .csv {
+    height: 100%;
+    width: 50%;
+}
+
+.csv {
+    border-left: 1px solid rgb(148, 148, 148);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form textarea {
+    height: 100%;
+    border: none;
+    resize: none;
+    padding: 9px;
+    outline: none;
+    font-size: 1.1em;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.form button {
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.json .form button {
+    background-color: #695CC4;
+}
+
+.json .form button:hover {
+    background-color: #4A3BB6;
+}
+
+.csv .form button {
+    background-color: #49BC9F;
+}
+
+.csv .form button:hover {
+    background-color: #26AB8A;
+}
